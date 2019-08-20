@@ -1,0 +1,170 @@
+html,
+body {
+    height: 100%;
+    background: #ecf0f4;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.main-container {
+    background: #fff;
+    border-radius: 4px;
+    border-top: 3px solid #2a82b6;
+    padding: 10px 15px;
+    margin: 20px 5px;
+    box-shadow: 0px 3px 6px 1px #cacacacc;
+}
+.main-container .user-name { text-align: center; }
+
+#myTab { background: #fff; }
+#myTab.nav-tabs > li.active > a, #myTab.nav-tabs > li.active > a:hover { border-top: 3px solid #2a82b6; border-radius: 0px; }
+#myTab.nav-tabs > li.active:first-of-type > a { border-left: 0; }
+#myTab.nav-tabs > li.active:last-of-type > a { border-right: 0; }
+
+.tab-body { background: #fff; padding: 25px 25px; }
+
+.bold { font-weight: bold }
+.info-title { border-bottom: 1px solid #eee; padding: 0px 10px; }
+.info-padding { padding: 10px 10px; }
+
+.margin-auto-left { margin-left: auto; }
+.flex { display: flex; }
+.main-color { color: #2a82b6; }
+.full-width { width: 100%; }
+.padding-0 { padding: 0px; }
+
+hr { margin-top: 10px; margin-bottom: 10px; }
+
+#request-is_invest { display: flex; }
+#request-is_invest .radio:last-of-type { margin-left: 10px; }
+
+.request-radio { position: relative; }
+span.invest { position: absolute; top: 9px; right: 50px; }
+
+.tab-pane:not(.in) #request { display: none; }
+.tab-pane:not(.in) { display: none !important; }
+
+.card-group { position: relative; }
+.card-group .field-profile-duration2 input { width: 50px; }
+.card-group .field-profile-duration2 { position: absolute; top: 0; left: 290px; }
+.card-group .field-profile-duration1 input { width: 50px; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-inverse { background-color: #2a82b6; border: none; }
+.navbar-inverse .btn-link, .navbar-inverse .navbar-brand { color: #fff; }
+.navbar-brand img { height: 100%; }
+
+
